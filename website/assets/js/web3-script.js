@@ -296,7 +296,7 @@ console.log()
   if (window.ethereum) {
 console.log("in1")
     // Checking if max supply hit
-    var maxSupply = 5000;
+    var maxSupply = 10000;
     var w3S = new Web3(window.ethereum);
     var contractS = new w3S.eth.Contract(abi, config.contractAddress);
     var currentSupply = await contractS.methods.totalSupply().call();
@@ -420,7 +420,7 @@ async function contractLogic(account) {
   var contract = new w3.eth.Contract(abi, config.contractAddress);
 
   var qty = document.getElementById("quantity").value;
-  var unitPrice = 0.08;
+  var unitPrice = 0.02;
   var totalEthPrice = parseFloat(qty * unitPrice).toFixed(2);
   var totalWeiPrice = w3.utils.toWei(totalEthPrice);
 
@@ -459,12 +459,12 @@ async function contractLogic(account) {
 function setupSoldout() {
   var web3Component = document.getElementById("web3-component");
   web3Component.innerHTML =
-    "<div class='alert alert-primary' role='alert'>All VoxHoundz have been minted. <br>Try buying on OpenSea.</div>";
+    "<div class='alert alert-primary' role='alert'>All MojiBots have been minted. <br>Try buying on OpenSea.</div>";
 }
 
 document.getElementById("quantity").addEventListener("change", function (qty) {
   var quantity = qty.target.value;
-  var unitPrice = 0.08;
+  var unitPrice = 0.02;
 
   document.getElementById("price").innerHTML =
     parseFloat(quantity * unitPrice).toFixed(2) + " ETH";

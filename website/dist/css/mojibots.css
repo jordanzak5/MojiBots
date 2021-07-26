@@ -17,7 +17,7 @@
 .jumbotron {
   background-image: url("../../assets/img/Website\ background\ smallt.png");
   background-size: cover;
-  min-height: 1000px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   image-rendering: pixelated;
@@ -29,10 +29,16 @@
 
 .title {
   text-align: center;
+  font-family: "silkscreenbold";
 }
 
 .team {
   padding: 5rem;
+  font-family: "silkscreenbold";
+}
+
+.teamMemberTitle {
+  padding: 2rem;
   font-family: "silkscreenbold";
 }
 
@@ -64,11 +70,36 @@
   background-color: #f6f6f6;
 }
 
+.black {
+  background-color: #23272a;
+}
+
 .roadmap {
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 5rem;
+}
+
+.ethbox {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.foot {
+  padding: 1rem;
+  text-align: center;
+}
+
+.pad {
+  padding-top: 2rem;
+}
+
+footer {
+  height: 170px;
 }
 
 p {
