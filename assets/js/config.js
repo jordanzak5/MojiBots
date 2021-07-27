@@ -3,7 +3,7 @@ const mainnet = "0x1";
 
 export default {
   chainId: mainnet,
-  contractAddress: "0x9A9f875a0b31D04CAb3454d4fD7b83d838B4e4A2",
+  contractAddress: "0x31705D3764f2917D3b51490b1D7439e05485f594",
   countdownTimestamp: 1626296400,
 };
 
