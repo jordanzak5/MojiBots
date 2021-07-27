@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "silkscreennormal";
+  src: url("../../assets/fonts/slkscr-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/slkscr-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "silkscreenbold";
+  src: url("../../assets/fonts/slkscrb-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/slkscrb-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.jumbotron {
+  background-image: url("../../assets/img/Website\ background\ smallt.png");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  image-rendering: pixelated;
+}
+
+.jumbotron-heading {
+  font-family: "silkscreenbold";
+}
+
+.title {
+  text-align: center;
+  font-family: "silkscreenbold";
+}
+
+.team {
+  padding: 5rem;
+  font-family: "silkscreenbold";
+}
+
+.teamMemberTitle {
+  padding: 2rem;
+  font-family: "silkscreenbold";
+}
+
+.teamMember {
+  padding-left: 2.5rem;
+  padding-right: 2.5;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section {
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  display: flex;
+}
+
+.teamSection {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.grey {
+  background-color: #f6f6f6;
+}
+
+.black {
+  background-color: #23272a;
+}
+
+.roadmap {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
+}
+
+.ethbox {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.foot {
+  padding: 1rem;
+  text-align: center;
+}
+
+.pad {
+  padding-top: 2rem;
+}
+
+footer {
+  height: 170px;
+}
+
+p {
+  font-family: "silkscreennormal";
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
