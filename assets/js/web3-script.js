@@ -539,20 +539,20 @@ function setupCountdown(targetTimestamp) {
   <div class="d-flex justify-content-center">
     <div id="clock">
       <div>
-        <span class="days fs-2 text-light"></span>
-        <div class="fs-6 text-light">Days</div>
+        <span class="days fs-2 text-dark"></span>
+        <div class="fs-6 text-dark">Days</div>
       </div>
       <div>
-        <span class="hours fs-2 text-light"></span>
-        <div class="fs-6 text-light">Hours</div>
+        <span class="hours fs-2 text-dark"></span>
+        <div class="fs-6 text-dark">Hours</div>
       </div>
       <div>
-        <span class="minutes fs-2 text-light"></span>
-        <div class="fs-6 text-light">Minutes</div>
+        <span class="minutes fs-2 text-dark"></span>
+        <div class="fs-2 text-dark">Minutes</div>
       </div>
       <div>
-        <span class="seconds fs-2 text-light"></span>
-        <div class="fs-6 text-light">Seconds</div>
+        <span class="seconds fs-2 text-dark"></span>
+        <div class="fs-6 text-dark">Seconds</div>
       </div>
     </div>
   </div>
